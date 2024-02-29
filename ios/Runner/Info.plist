@@ -2,6 +2,60 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>blue_icon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>blue_icon</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<string>UIPrerenderedIcon</string>
+			</dict>
+			<key>black_icon</key>
+			<dict>
+				<key>UIPrerenderedIcon</key>
+				<string></string>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>black_icon</string>
+				</array>
+			</dict>
+			<key>red_icon</key>
+			<dict/>
+			<key>UIPrerenderedIcon</key>
+			<string></string>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>red_icon</string>
+			</array>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconName</key>
+			<string></string>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+		<key>UINewsstandIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UINewsstandBindingType</key>
+			<string>UINewsstandBindingTypeMagazine</string>
+			<key>UINewsstandBindingEdge</key>
+			<string>UINewsstandBindingEdgeLeft</string>
+		</dict>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
